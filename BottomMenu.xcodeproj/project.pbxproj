@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A776C5725911ECF0082245B /* BottomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776C5625911ECF0082245B /* BottomMenu.swift */; };
+		3A776C5D25912AEB0082245B /* libBottomMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A776C5325911ECF0082245B /* libBottomMenu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A776C5D25912AEB0082245B /* libBottomMenu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
