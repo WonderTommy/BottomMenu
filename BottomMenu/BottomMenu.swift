@@ -74,7 +74,7 @@ class BottomMenu: NSObject {
         content.bottomAnchor.constraint(equalTo: baseView.bottomAnchor, constant: paddingBottom).isActive = true
     }
     
-    public func showBottomMenu() {
+    @objc public func showBottomMenu() {
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
             self.shadowView.alpha = 1
             
